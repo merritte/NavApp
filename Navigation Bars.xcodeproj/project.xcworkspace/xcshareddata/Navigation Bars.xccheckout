@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41B9E19A-F2AF-4718-9CF6-5D2057DA07E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Navigation Bars</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C1A29B87D4B606ABA7800E1F0D5EF5A8AF679882</key>
+		<string>https://github.com/merritte/NavApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Navigation Bars.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C1A29B87D4B606ABA7800E1F0D5EF5A8AF679882</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/merritte/NavApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C1A29B87D4B606ABA7800E1F0D5EF5A8AF679882</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1A29B87D4B606ABA7800E1F0D5EF5A8AF679882</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Navigation_Bars</string>
+		</dict>
+	</array>
+</dict>
+</plist>

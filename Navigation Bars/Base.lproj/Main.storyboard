@@ -22,9 +22,17 @@
                                     <constraint firstAttribute="height" constant="44" id="17L-zw-eYx"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Navigation App" id="Ppi-lV-Clk">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="VEA-sT-PeD"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="2my-D9-DYN"/>
+                                    <navigationItem title="StopWatch" id="Ppi-lV-Clk">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="VEA-sT-PeD">
+                                            <connections>
+                                                <action selector="pause:" destination="BYZ-38-t0r" id="ogF-vh-iNb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="2my-D9-DYN">
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="39b-9S-ER5"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -34,11 +42,21 @@
                                     <constraint firstAttribute="height" constant="44" id="Fdl-cu-qc3"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Item" id="UMV-sR-WDY"/>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zde-kV-nde"/>
-                                    <barButtonItem title="Item" id="pDT-m0-CH5"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="87N-x7-Gg9"/>
+                                    <barButtonItem systemItem="refresh" id="UMV-sR-WDY">
+                                        <connections>
+                                            <action selector="reset:" destination="BYZ-38-t0r" id="cvi-r3-7o1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="rqd-7d-bIK"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vux-lP-Pld">
+                                <rect key="frame" x="208" y="254" width="184" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="105"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -50,6 +68,9 @@
                             <constraint firstAttribute="trailing" secondItem="OjG-0b-HKx" secondAttribute="trailing" id="qLC-ir-ga4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="time" destination="vux-lP-Pld" id="iv6-aj-Fgv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
