@@ -51,8 +51,12 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="rqd-7d-bIK"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vux-lP-Pld">
-                                <rect key="frame" x="208" y="254" width="184" height="92"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vux-lP-Pld">
+                                <rect key="frame" x="10" y="254" width="580" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="Axb-Im-bOH"/>
+                                    <constraint firstAttribute="width" constant="364" id="HMs-ys-Zd5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="105"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -61,9 +65,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="5Cu-Ea-Z6e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="32G-I7-5pk"/>
+                            <constraint firstAttribute="centerY" secondItem="vux-lP-Pld" secondAttribute="centerY" id="4Bf-ao-6TD"/>
                             <constraint firstItem="OjG-0b-HKx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Uw-fY-tsU"/>
+                            <constraint firstItem="vux-lP-Pld" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="5pp-w2-6pH"/>
+                            <constraint firstAttribute="centerX" secondItem="vux-lP-Pld" secondAttribute="centerX" id="8Xg-VT-LKk"/>
                             <constraint firstItem="5Cu-Ea-Z6e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="15" id="CTM-dz-wEY"/>
                             <constraint firstAttribute="trailing" secondItem="5Cu-Ea-Z6e" secondAttribute="trailing" id="PAh-LL-faF"/>
+                            <constraint firstAttribute="trailing" secondItem="vux-lP-Pld" secondAttribute="trailing" constant="10" id="WwF-CC-qUh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OjG-0b-HKx" secondAttribute="bottom" id="YBi-5s-Tly"/>
                             <constraint firstAttribute="trailing" secondItem="OjG-0b-HKx" secondAttribute="trailing" id="qLC-ir-ga4"/>
                         </constraints>
